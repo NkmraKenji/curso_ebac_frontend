@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário A e B</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Integrando HTML com JavaScript</h1>
+    </header>
+    <div class="container">
+        <h2>Atividade prática do módulo 7 - Validação no JavaScript</h2>
+        <form id="valid-form">
+            <label for="A">Campo A</label>
+            <input type="number" id="A" required placeholder="Campo A"><br>
+            <label for="B">Campo B</label>
+            <input type="number" id="B" required placeholder="Campo B"><br>
+            <p class="error-message">O valor B precisa ser maior que o valor A!</p>
+            <p class="success-message">Formulário enviado com sucesso!</p>
+            <button type="submit">VALIDAR</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
